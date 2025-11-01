@@ -48,12 +48,15 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.58f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Player.cs" />
-    <Compile Include="Assets\Suck.cs" />
-    <Compile Include="Assets\PlayerBody.cs" />
-    <Compile Include="Assets\Suckable.cs" />
-    <Compile Include="Assets\LogicScript.cs" />
-    <Compile Include="Assets\Spawner.cs" />
+    <Compile Include="Assets\Scripts\Suckable.cs" />
+    <Compile Include="Assets\Scripts\Ship.cs" />
+    <Compile Include="Assets\Scripts\LogicScript.cs" />
+    <Compile Include="Assets\Scripts\DebrisType.cs" />
+    <Compile Include="Assets\Scripts\PlayerBody.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
+    <Compile Include="Assets\Scripts\Suck.cs" />
+    <Compile Include="Assets\Interface\IHittable.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

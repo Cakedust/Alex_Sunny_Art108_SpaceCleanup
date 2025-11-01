@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: adc49849d5bdf2240a1f4859693f30a7
+guid: 31cb148ba9d055a46aa74b8c734410a5
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: SpaceBG
+  - name: spaceBG
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -133,9 +133,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 120
-      height: 120
-    spriteID: b981573bed8b9e1458fa185a2cd8df7e
+      width: 320
+      height: 180
+    spriteID: b1e937f4254f66c4d8295d9626c91d97
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -148,25 +148,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 3138427577
+      value0: 3137345049
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: SpaceBG
+    name: spaceBG
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: SpaceBG
+    - name: spaceBG
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
-        width: 120
-        height: 120
-      spriteId: b981573bed8b9e1458fa185a2cd8df7e
+        width: 320
+        height: 180
+      spriteId: b1e937f4254f66c4d8295d9626c91d97
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -185,5 +185,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 120, y: 120}
-  previousTextureSize: {x: 128, y: 128}
+  canvasSize: {x: 320, y: 180}
+  previousTextureSize: {x: 512, y: 256}

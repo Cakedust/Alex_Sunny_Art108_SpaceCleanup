@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - LogicDestroy
+  - Ship
   layers:
   - Default
   - TransparentFX
